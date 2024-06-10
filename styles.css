@@ -120,6 +120,66 @@ section{
     }
     
 }
+
+.content {
+    margin-top: 20px;
+}
+
+.home {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0037c3;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.datos {
+    margin-top: 20px;
+}
+
+p {
+
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+    color: #4E7FFF;
+    font-size: 21px;
+
+}
+
+.imagen {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
 .titulo {
     font-size: 2em;
     margin-bottom: 20px;
@@ -133,8 +193,8 @@ section{
   }
   
   .carta {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -151,7 +211,7 @@ section{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #3498db;
+    background-color: #0037c3;
     color: white;
     text-align: center;
     padding: 5px;
@@ -161,3 +221,24 @@ section{
     margin-top: 5px;
     text-align: center;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    background-color: #0037c3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

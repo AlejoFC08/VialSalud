@@ -140,6 +140,61 @@ nav ul li a{
     
 }
 
+.inicio{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.iniinfo {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.iniinfo h1 {
+    font-size: 2.3em;
+    color: #0037c3;
+    margin-bottom: 20px;
+}
+
+.inicio h2 {
+    font-size: 1.3em;
+    color: #4E7FFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.iniinfo p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.iniimg{
+
+    flex: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.iniimg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
 .content {
     margin-top: 20px;
 }
@@ -507,6 +562,45 @@ button {
 
     .juegos{
         display: flex;
+    }
+
+    .inicio{
+        display: flex;
+    }
+    .iniimg{
+
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+
+
+
+.iniinfo{
+    text-align: justify;
+    margin-left: 90px;
+
+}
+    .iniinfo h1 {
+        font-size: 2.6em;
+        color: #0037c3;
+        margin-bottom: 20px;
+    }
+    
+    .inicio h2 {
+        font-size: 1.7em;
+        color: #4E7FFF;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .iniinfo p {
+        font-size: 1.2em;
+        color: #666;
+        margin-bottom: 15px;
     }
 
 
